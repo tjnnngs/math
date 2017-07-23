@@ -1,0 +1,25 @@
+<!-- <center-body onload="mathAlert()"> -->
+
+
+<% if action == "+" %>
+	<% result = num1.to_i + num2.to_i %>
+<%end%> 
+
+<% if action == "-" %>
+	<% result = num1.to_i - num2.to_i %>
+<%end%>
+
+<% if action == "/" %>
+	<% result = num1.to_i / num2.to_i %>
+<%end%>
+
+<% if action == "*" %>
+	<% result = num1.to_i * num2.to_i %>
+<%end%>
+
+<!-- </center-body> -->
+
+This is the math problem you asked me to solve:
+<br>
+<br>
+<%= num1 %> <%= action %> <%= num2 %> =  <%= result %>
