@@ -19,4 +19,4 @@ end
 get '/printresults' do
 	erb :printresults, locals:{num1: session[:num1_provided], num2: session[:num2_provided], action: session[:action_provided] }
 end	
-Contact GitHub API Training Shop Blog About
+
